@@ -3,6 +3,7 @@ import shapes.IsoscelesTriangle;
 import shapes.RectangularTriangle;
 import shapes.Triangle;
 
+//
 public class Main {
     public static void main(String[] args) {
         Triangle[] triangles = {
