@@ -1,4 +1,4 @@
-package shapes;
+package shapes.triangle;
 
 public class RectangularTriangle extends Triangle {
     public RectangularTriangle(double firstCathet, double secondCathet) {

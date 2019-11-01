@@ -1,4 +1,4 @@
-package shapes;
+package shapes.triangle;
 
 public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(double side) {

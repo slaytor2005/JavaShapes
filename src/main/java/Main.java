@@ -1,7 +1,7 @@
-import shapes.EquilateralTriangle;
-import shapes.IsoscelesTriangle;
-import shapes.RectangularTriangle;
-import shapes.Triangle;
+import shapes.triangle.EquilateralTriangle;
+import shapes.triangle.IsoscelesTriangle;
+import shapes.triangle.RectangularTriangle;
+import shapes.triangle.Triangle;
 
 //
 public class Main {

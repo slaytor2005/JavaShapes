@@ -2,6 +2,7 @@ package shapes;
 
 import org.junit.Before;
 import org.junit.Test;
+import shapes.triangle.Triangle;
 
 import static org.junit.Assert.assertEquals;
 

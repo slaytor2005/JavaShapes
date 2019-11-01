@@ -1,4 +1,7 @@
-package shapes;
+package shapes.triangle;
+
+import shapes.Shape;
+import shapes.Validator;
 
 public class Triangle extends Shape {
     double firstSide;
