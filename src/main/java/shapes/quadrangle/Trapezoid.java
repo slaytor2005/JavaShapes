@@ -2,10 +2,9 @@ package shapes.quadrangle;
 
 public class Trapezoid extends Quadrangle {
 
-    double height; //высота
+    double height;
 
-    // конструктор
-    protected Trapezoid(double firstSide, double secondSide, double thirdSide, double fourthSide, double height) {
+    public Trapezoid(double firstSide, double secondSide, double thirdSide, double fourthSide, double height) {
         super(firstSide, secondSide, thirdSide, fourthSide);
         this.name = "трапеция";
         this.height = height;
@@ -22,7 +21,7 @@ public class Trapezoid extends Quadrangle {
                 + "\nпервая сторона: " + firstSide
                 + "\nвторая сторона: " + secondSide
                 + "\nтретья сторона: " + thirdSide
-                + "\nчетвертая сторона: " + fourthSide
+                + "\nчетвёртая сторона: " + fourthSide
                 + "\nвысота: " + height
                 + "\nпериметр: " + getPerimeter()
                 + "\nплощадь: " + getSquare();

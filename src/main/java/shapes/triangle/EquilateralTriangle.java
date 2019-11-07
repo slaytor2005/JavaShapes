@@ -19,8 +19,8 @@ public class EquilateralTriangle extends Triangle {
     @Override
     public String toString() {
         return name
-                + "\nсторона: " + firstSide
-                + "\nпериметр: " + getPerimeter()
-                + "\nплощадь: " + getSquare();
+            + "\nсторона: " + firstSide
+            + "\nпериметр: " + getPerimeter()
+            + "\nплощадь: " + getSquare();
     }
 }

@@ -2,7 +2,7 @@ package shapes.quadrangle;
 
 public class Parallelogram extends Trapezoid {
 
-    protected Parallelogram(double firstSide, double secondSide, double height) {
+    public Parallelogram(double firstSide, double secondSide, double height) {
         super(firstSide, secondSide, firstSide, secondSide, height);
         this.name = "параллелограмм";
     }

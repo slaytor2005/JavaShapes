@@ -27,7 +27,7 @@ public class TrapezoidTest {
     @Test
     public void testToString() {
         String toString = "трапеция\nпервая сторона: 2.0\nвторая сторона: 3.0\nтретья сторона: 4.0\n" +
-                "четвертая сторона: 5.0\nвысота: 6.0\nпериметр: 14.0\nплощадь: 24.0";
+                "четвёртая сторона: 5.0\nвысота: 6.0\nпериметр: 14.0\nплощадь: 24.0";
         assertEquals(toString, trapezoid.toString());
     }
 }

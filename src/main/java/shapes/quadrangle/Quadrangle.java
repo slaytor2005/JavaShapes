@@ -1,6 +1,7 @@
 package shapes.quadrangle;
 
 import shapes.Shape;
+import shapes.Validator;
 
 public class Quadrangle extends Shape {
 
@@ -9,12 +10,16 @@ public class Quadrangle extends Shape {
     double thirdSide;
     double fourthSide;
 
-    protected Quadrangle(double firstSide, double secondSide, double thirdSide, double fourthSide) {
-        super("четырехугольник");
-        this.firstSide = firstSide;
-        this.secondSide = secondSide;
-        this.thirdSide = thirdSide;
-        this.fourthSide = fourthSide;
+    public Quadrangle(double firstSide, double secondSide, double thirdSide, double fourthSide) {
+        super("четырёхугольник");
+        if (Validator.validateQuadrangle(firstSide, secondSide, thirdSide, fourthSide)) {
+            this.firstSide = firstSide;
+            this.secondSide = secondSide;
+            this.thirdSide = thirdSide;
+            this.fourthSide = fourthSide;
+        } else {
+            throw new IllegalArgumentException(this.getClass().getSimpleName());
+        }
     }
 
     @Override
@@ -33,7 +38,7 @@ public class Quadrangle extends Shape {
                 + "\nпервая сторона: " + firstSide
                 + "\nвторая сторона: " + secondSide
                 + "\nтретья сторона: " + thirdSide
-                + "\nчетвертая сторона: " + fourthSide
+                + "\nчетвёртая сторона: " + fourthSide
                 + "\nпериметр: " + getPerimeter();
     }
 }

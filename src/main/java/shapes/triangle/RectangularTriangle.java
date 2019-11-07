@@ -14,10 +14,10 @@ public class RectangularTriangle extends Triangle {
     @Override
     public String toString() {
         return name
-                + "\nпервый катет: " + firstSide
-                + "\nвторой катет: " + secondSide
-                + "\nгипотенуза: " + thirdSide
-                + "\nпериметр: " + getPerimeter()
-                + "\nплощадь: " + getSquare();
+            + "\nпервый катет: " + firstSide
+            + "\nвторой катет: " + secondSide
+            + "\nгипотенуза: " + thirdSide
+            + "\nпериметр: " + getPerimeter()
+            + "\nплощадь: " + getSquare();
     }
 }

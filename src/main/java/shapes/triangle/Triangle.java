@@ -15,8 +15,12 @@ public class Triangle extends Shape {
             this.secondSide = secondSide;
             this.thirdSide = thirdSide;
         } else {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException(this.getClass().getSimpleName());
         }
+    }
+
+    public void setZero() {
+        firstSide = secondSide = thirdSide = 0;
     }
 
     @Override
@@ -34,10 +38,10 @@ public class Triangle extends Shape {
     public String toString() {
         return name
                 + "\nпервая сторона: " + firstSide
-                + "\nвторая сторона: " + secondSide
-                + "\nтретья сторона: " + thirdSide
-                + "\nпериметр: " + getPerimeter()
-                + "\nплощадь: " + getSquare();
+            + "\nвторая сторона: " + secondSide
+            + "\nтретья сторона: " + thirdSide
+            + "\nпериметр: " + getPerimeter()
+            + "\nплощадь: " + getSquare();
     }
 
     @Override

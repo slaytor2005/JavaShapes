@@ -3,14 +3,11 @@ package shapes;
 public abstract class Shape {
     /**
      * конструктор класса
-     *
      * @param name название фигуры
      */
-    protected Shape(String name) {
+    protected Shape(String name){
         this.name = name;
-    }
-
-    ;
+    };
 
     /**
      * название фигуры
@@ -19,14 +16,12 @@ public abstract class Shape {
 
     /**
      * метод вычисления периметра
-     *
      * @return периметр фигуры
      */
     public abstract double getPerimeter();
 
     /**
      * метод вычисления площади
-     *
      * @return площадь фигуры
      */
     public abstract double getSquare();

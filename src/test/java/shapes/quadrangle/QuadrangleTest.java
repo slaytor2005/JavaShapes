@@ -6,6 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class QuadrangleTest {
+
     Quadrangle quadrangle;
 
     @Before
@@ -15,13 +16,13 @@ public class QuadrangleTest {
 
     @Test
     public void getPerimeter() {
-        assertEquals(14.0, quadrangle.getPerimeter(), 0); /* 0-точность */
+        assertEquals(14.0, quadrangle.getPerimeter(), 0);
     }
 
     @Test
     public void toStringTest() {
-        String toString = "четырехугольник\nпервая сторона: 2.0\nвторая сторона: 3.0\nтретья сторона: 4.0\n" +
-                "четвертая сторона: 5.0\nпериметр: 14.0";
+        String toString = "четырёхугольник\nпервая сторона: 2.0\nвторая сторона: 3.0\nтретья сторона: 4.0\n" +
+                "четвёртая сторона: 5.0\nпериметр: 14.0";
         assertEquals(toString, quadrangle.toString());
     }
 }

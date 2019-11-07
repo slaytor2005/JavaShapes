@@ -14,7 +14,7 @@ public class IsoscelesTriangle extends Triangle {
 
     @Override
     public double getSquare() {
-        return thirdSide * Math.sqrt(firstSide * secondSide - Math.pow(thirdSide, 2) / 4) / 2;
+        return thirdSide * Math.sqrt(firstSide * secondSide - Math.pow(thirdSide, 2)/4) / 2;
     }
 
     @Override
